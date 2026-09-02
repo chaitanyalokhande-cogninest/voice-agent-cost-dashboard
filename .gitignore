@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.streamlit/secrets.toml
+
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Call recordings, transcripts, and derived datasets may contain PII.
+CallLog_*/
+output-*/
+output_batch*/
+recordings/
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.flac
+*.ogg
+*.webm
+*.aac
+*.wma
+voice_call_usage*.csv
+voice_call_cost_scenarios*.csv
+*.docx
