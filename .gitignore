@@ -7,6 +7,7 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.vscode/
 
 # Call recordings, transcripts, and derived datasets may contain PII.
 CallLog_*/
